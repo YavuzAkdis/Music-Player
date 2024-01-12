@@ -1,23 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 .container {
   width: 350px;
 }
-#controls i {
-  font-size: 30px;
-  color: purple;
-  margin-right: 20px;
-}
-#progress {
-  margin-bottom: 20px;
-}
-#progress .times {
+
+#progress .times,
+.card-footer,
+.volume-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#progress-bar {
-  width: 100%;
+
+.volume-container i {
+  margin-right: 5px;
 }
 
-#music-image {
-  width: 100%;
+li.playing {
+  background-color: #0b5eb7;
+  color: #fff;
 }
